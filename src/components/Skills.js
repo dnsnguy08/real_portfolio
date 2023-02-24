@@ -2,6 +2,19 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import airflowIcon from "../assets/img/skills/airflow.svg";
+import bqIcon from "../assets/img/skills/bigquery.svg";
+import cssIcon from "../assets/img/skills/CSS3.svg";
+import htmlIcon from "../assets/img/skills/html5.svg";
+import jsIcon from "../assets/img/skills/javascript.svg";
+import jenkinsIcon from "../assets/img/skills/Jenkins_logo.svg";
+import jiraIcon from "../assets/img/skills/jira.svg";
+import lookerIcon from "../assets/img/skills/looker.svg";
+import mongoIcon from "../assets/img/skills/mongodb.svg";
+import mysqlIcon from "../assets/img/skills/mysql.svg";
+import pythonIcon from "../assets/img/skills/python.svg";
+import reactIcon from "../assets/img/skills/react.svg";
+import sqlIcon from "../assets/img/skills/sql.svg";
 
 export const Skills = () => {
   const responsive = {
@@ -30,11 +43,12 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                For futher details, please see Resume. Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -44,20 +58,56 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={""} alt="image" />
-                  <h5>Full Stack</h5>
+                  <img src={jsIcon} alt="image" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="image" />
-                  <h5>Full Stack</h5>
+                  <img src={reactIcon} alt="image" />
+                  <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="image" />
-                  <h5>Full Stack</h5>
+                  <img src={htmlIcon} alt="image" />
+                  <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={""} alt="image" />
-                  <h5>Full Stack</h5>
+                  <img src={cssIcon} alt="image" />
+                  <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={pythonIcon} alt="image" />
+                  <h5>Python</h5>
+                </div>
+                <div className="item">
+                  <img src={sqlIcon} alt="image" />
+                  <h5>SQL</h5>
+                </div>
+                <div className="item">
+                  <img src={airflowIcon} alt="image" />
+                  <h5>Airflow</h5>
+                </div>
+                <div className="item" id="looker">
+                  <img src={lookerIcon} alt="image" />
+                  <h5 id="looker-text">Looker</h5>
+                </div>
+                <div className="item">
+                  <img src={bqIcon} alt="image" />
+                  <h5>BigQuery</h5>
+                </div>
+                <div className="item">
+                  <img src={jiraIcon} alt="image" />
+                  <h5>Jira</h5>
+                </div>
+                <div className="item">
+                  <img src={jenkinsIcon} alt="image" />
+                  <h5>Jenkins</h5>
+                </div>
+                <div className="item">
+                  <img src={mongoIcon} alt="image" />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={mysqlIcon} alt="image" />
+                  <h5>MySQL</h5>
                 </div>
               </Carousel>
             </div>
