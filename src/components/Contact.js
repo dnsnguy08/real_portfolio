@@ -42,7 +42,7 @@ export const Contact = () => {
     } else {
       setStatus({
         succes: false,
-        message: "Something went wrong, please try again later.",
+        message: "Something went wrong, please try again.",
       });
     }
   };

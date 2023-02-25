@@ -1,40 +1,51 @@
 import React from "react";
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg1 from "../assets/img/project-img1.png";
+import cms from "../assets/img/projects/CMS.png";
+import petSearch from "../assets/img/projects/petSearch.png";
+import pokemonBattle from "../assets/img/projects/pokemonBattle.png";
+import redditClone from "../assets/img/projects/reddit-clone.png";
+import bookSearch from "../assets/img/projects/SearchBooks.png";
+import weatherDashboard from "../assets/img/projects/WeatherDashboard.jpg";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Travel Forum (Reddit-Clone)",
+      description: "React, Typescript, Next.js, Firebase",
+      imgUrl: redditClone,
+      repoUrl: "https://github.com/dnsnguy08/reddit_clone",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Book Search",
+      description: "MERN Stack",
+      imgUrl: bookSearch,
+      repoUrl: "https://github.com/dnsnguy08/search_for_books",
     },
     {
-      title: "Business Startup",
+      title: "Pet Play Date",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: petSearch,
+      repoUrl: "https://github.com/project-3-collab/Pawsitive-Pals",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Content Management System (CMS)",
+      description: "Javascript, Inquirer, MySQL",
+      imgUrl: cms,
+      repoUrl: "https://github.com/dnsnguy08/employee_tracker",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Weather Dashboard",
+      description: "Javascript, JQuery, third-party APIs",
+      imgUrl: weatherDashboard,
+      repoUrl: "https://github.com/dnsnguy08/weather_forecast_search",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Pokemon Battle Game",
+      description: "Javascript, JQuery, third-party APIs",
+      imgUrl: pokemonBattle,
+      repoUrl: "https://github.com/dnsnguy08/Pokemon-Battle",
     },
   ];
 
@@ -54,7 +65,7 @@ export const Projects = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav
+              {/* <Nav
                 variant="pills"
                 className="nav-pills mb-5 justify-content-center align-items-center"
                 id="pills-tab"
@@ -68,7 +79,7 @@ export const Projects = () => {
                 <Nav.Item>
                   <Nav.Link eventKey="third">Tab Three</Nav.Link>
                 </Nav.Item>
-              </Nav>
+              </Nav> */}
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <Row>
