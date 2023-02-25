@@ -1,4 +1,4 @@
-/************ Custom Font ************/
+*********** Custom Font ***********
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -263,7 +263,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: block;
 }
 .banner p {
-  color: #B8B8B8;
+  color: #ffffff;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -291,6 +291,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: auto;
   width: 350px;
 }
+#banner-bx {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
