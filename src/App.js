@@ -6,6 +6,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 import { Projects } from "./components/Projects";
+import { Resume } from "./components/Resume";
 import { Skills } from "./components/Skills";
 import logo from "./logo.svg";
 
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Resume />
       <Contact />
       <Footer />
     </div>

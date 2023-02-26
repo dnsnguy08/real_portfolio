@@ -25,7 +25,7 @@ export const Projects = () => {
     },
     {
       title: "Pet Play Date",
-      description: "Design & Development",
+      description: "MERN Stack",
       imgUrl: petSearch,
       repoUrl: "https://github.com/project-3-collab/Pawsitive-Pals",
     },

@@ -1,4 +1,4 @@
-*********** Custom Font ***********
+/*********** Custom Font ***********/
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Bold.ttf');
@@ -554,6 +554,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+/************ Resume Css ************/
+.resume {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.resume-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+}
+
+.resume h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.resume p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
 }
 
 /************ Footer Css ************/

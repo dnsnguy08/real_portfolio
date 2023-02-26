@@ -86,15 +86,21 @@ export const NavBar = () => {
                 <a
                   href="https://www.linkedin.com/in/dennis-nguyen-a19bb9b6/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src={navIcon1} alt="social icon" />
                 </a>
-                <a href="https://github.com/dnsnguy08" target="_blank">
+                <a
+                  href="https://github.com/dnsnguy08"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={githubIcon} alt="social icon" />
                 </a>
                 <a
                   href="https://www.facebook.com/dennis.nguyen.100?mibextid=LQQJ4d"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src={navIcon2} alt="social icon" />
                 </a>
