@@ -293,6 +293,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 #banner-bx {
   text-align: center;
+  font-weight: 600;
   background: rgba(0, 0, 0, 0.5);
 }
 

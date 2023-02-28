@@ -72,7 +72,8 @@ export const NavBar = () => {
                 Projects
               </Nav.Link>
               <Nav.Link
-                href="#resume"
+                href="https://docs.google.com/document/d/1JMsFZ5gl1mUMZaiKXr8e47xyhMoxbMzaFBHnavxXgIQ"
+                target="_blank"
                 className={
                   activeLink === "resume" ? "active navbar-link" : "navbar-link"
                 }

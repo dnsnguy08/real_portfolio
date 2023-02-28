@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import resume from "../assets/img/resume/DennisNResume.pdf";
 
+//  just add link to good drive for download
+
 export const Resume = () => {
   //   const content = "data:application/pdf;base64,<base64 PDF content string>";
   //   const linkSource = content;

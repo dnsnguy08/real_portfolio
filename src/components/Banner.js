@@ -60,15 +60,18 @@ export const Banner = () => {
               </h1>
               <div id="banner-bx">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Hi, I'm Dennis Nguyen. And I love tech! I enjoy creating,
+                  tinkering, and breaking software. I'm currently located in the
+                  Bay Area and have 6+ years of QA and Software Testing
+                  experience. Outside of the web, you can find me in the
+                  outdoors - traveling, camping, and enjoying good food with my
+                  wife and dog. Some highlights of my skillset include:
                 </p>
+                <li>Test Lead & Release Management</li>
+                <li>Test Automation with Python</li>
+                <li>Data analysis with SQL and Looker</li>
+                <li>Full Stack Bootcamp graduate</li>
+                <li>Jenkins CI</li>
               </div>
               <HashLink to="#connect">
                 <button id="connectBtn" onClick={() => console.log("connect")}>
