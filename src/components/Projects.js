@@ -4,6 +4,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import cms from "../assets/img/projects/CMS.png";
 import petSearch from "../assets/img/projects/petSearch.png";
 import pokemonBattle from "../assets/img/projects/pokemonBattle.png";
+import realEstate from "../assets/img/projects/properties.png";
 import redditClone from "../assets/img/projects/reddit-clone.png";
 import bookSearch from "../assets/img/projects/SearchBooks.png";
 import weatherDashboard from "../assets/img/projects/WeatherDashboard.jpg";
@@ -18,23 +19,24 @@ export const Projects = () => {
       repoUrl: "https://github.com/dnsnguy08/reddit_clone",
     },
     {
+      title: "Real Estate Dashboard",
+      description: "MERN Stack, Refine, Typescript",
+      imgUrl: realEstate,
+      repoUrl: "https://github.com/dnsnguy08/refine_admin_page",
+    },
+    {
       title: "Book Search",
       description: "MERN Stack",
       imgUrl: bookSearch,
       repoUrl: "https://github.com/dnsnguy08/search_for_books",
     },
-    {
-      title: "Pet Play Date",
-      description: "MERN Stack",
-      imgUrl: petSearch,
-      repoUrl: "https://github.com/project-3-collab/Pawsitive-Pals",
-    },
-    {
-      title: "Content Management System (CMS)",
-      description: "Javascript, Inquirer, MySQL",
-      imgUrl: cms,
-      repoUrl: "https://github.com/dnsnguy08/employee_tracker",
-    },
+
+    // {
+    //   title: "Pet Play Date",
+    //   description: "MERN Stack",
+    //   imgUrl: petSearch,
+    //   repoUrl: "https://github.com/project-3-collab/Pawsitive-Pals",
+    // },
     {
       title: "Weather Dashboard",
       description: "Javascript, JQuery, third-party APIs",
@@ -46,6 +48,12 @@ export const Projects = () => {
       description: "Javascript, JQuery, third-party APIs",
       imgUrl: pokemonBattle,
       repoUrl: "https://github.com/dnsnguy08/Pokemon-Battle",
+    },
+    {
+      title: "Content Management System (CMS)",
+      description: "Javascript, Inquirer, MySQL",
+      imgUrl: cms,
+      repoUrl: "https://github.com/dnsnguy08/employee_tracker",
     },
   ];
 
