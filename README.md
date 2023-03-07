@@ -29,7 +29,7 @@ For additional details about me, please visit my portfolio.
 ### Links
 
 - [Github URL here](https://github.com/dnsnguy08)
-- [Portfolio]((https://dn-portfolio.netlify.app/)
+- [Portfolio](https://dn-portfolio.netlify.app/)
 
 
 ## License
