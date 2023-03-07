@@ -73,11 +73,15 @@ export const Contact = () => {
                   }
                 >
                   <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
+                  <form
+                    action="https://formsubmit.co/<your email>"
+                    method="POST"
+                  >
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
+                          name="f_name"
                           value={formDetails.firstName}
                           placeholder="First Name"
                           onChange={(e) =>
@@ -88,7 +92,8 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="text"
-                          value={formDetails.lasttName}
+                          name="l_name"
+                          value={formDetails.lastName}
                           placeholder="Last Name"
                           onChange={(e) =>
                             onFormUpdate("lastName", e.target.value)
@@ -98,6 +103,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="email"
+                          name="email"
                           value={formDetails.email}
                           placeholder="Email Address"
                           onChange={(e) =>
@@ -108,6 +114,7 @@ export const Contact = () => {
                       <Col size={12} sm={6} className="px-1">
                         <input
                           type="tel"
+                          name="phone"
                           value={formDetails.phone}
                           placeholder="Phone No."
                           onChange={(e) =>
@@ -123,6 +130,7 @@ export const Contact = () => {
                           onChange={(e) =>
                             onFormUpdate("message", e.target.value)
                           }
+                          name="message"
                         ></textarea>
                         <button type="submit">
                           <span>{buttonText}</span>
