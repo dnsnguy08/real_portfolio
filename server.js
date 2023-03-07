@@ -12,8 +12,6 @@ app.use(cors());
 app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
-console.log(process.env.MY_GMAIL);
-console.log(process.env.MY_GMAIL_PASSWORD);
 
 const contactEmail = nodemailer.createTransport({
   service: "gmail",
